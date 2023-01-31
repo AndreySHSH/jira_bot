@@ -172,7 +172,7 @@ func (b *Bot) createIssue(id int64, text string) string {
 
 	b.cacheCommands[id] = userCommand{}
 
-	return "задача создана"
+	return "Задача создана"
 }
 
 func (b *Bot) getTasks() string {
