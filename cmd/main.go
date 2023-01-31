@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
+	"os"
+
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 	"jira_bot/internal/bot"
 	"jira_bot/internal/repositories"
 	"jira_bot/internal/services"
-	"os"
 )
 
 func main() {
